@@ -10,9 +10,7 @@ public class Login1_Steps {
 
 	@When("user enter valid username {string} and enter password {string}")
 	public void user_enter_valid_username_and_enter_password(String unm, String pwd) {
-	    System.out.println(unm + " " + pwd);
-	    
-	   
+	    System.out.println(unm + " " + pwd);   
 	}
 	
 	@Then("Page should be navigated to home page or else show error message")
